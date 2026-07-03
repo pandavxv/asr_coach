@@ -1,0 +1,18 @@
+{
+  "dataset_id": "thanhnew2001/VietSuperSpeech",
+  "model_id": "vinai/PhoWhisper-small",
+  "mode": "base",
+  "samples": 5,
+  "seed": 42,
+  "min_duration": 2.0,
+  "max_duration": 18.0,
+  "audio_cache_dir": "cache/vietsuperspeech",
+  "metrics": {
+    "phowhisper-small": {
+      "samples": 5,
+      "raw_wer": 1.0887687028140012,
+      "normalized_wer": 0.2536593984830086,
+      "normalized_cer": 0.16951184426904928
+    }
+  }
+}

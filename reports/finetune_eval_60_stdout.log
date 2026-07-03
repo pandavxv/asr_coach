@@ -1,0 +1,80 @@
+phowhisper-small 1/60 raw_wer=1.043 norm_wer=0.319
+phowhisper-small 2/60 raw_wer=1.200 norm_wer=0.367
+phowhisper-small 3/60 raw_wer=1.000 norm_wer=0.115
+phowhisper-small 4/60 raw_wer=1.040 norm_wer=0.080
+phowhisper-small 5/60 raw_wer=1.161 norm_wer=0.387
+phowhisper-small 6/60 raw_wer=1.020 norm_wer=0.061
+phowhisper-small 7/60 raw_wer=1.000 norm_wer=1.000
+phowhisper-small 8/60 raw_wer=1.081 norm_wer=0.081
+phowhisper-small 9/60 raw_wer=1.000 norm_wer=0.074
+phowhisper-small 10/60 raw_wer=1.000 norm_wer=0.140
+phowhisper-small 11/60 raw_wer=1.000 norm_wer=0.154
+phowhisper-small 12/60 raw_wer=1.000 norm_wer=0.020
+phowhisper-small 13/60 raw_wer=2.385 norm_wer=2.385
+phowhisper-small 14/60 raw_wer=1.000 norm_wer=0.043
+phowhisper-small 15/60 raw_wer=1.000 norm_wer=0.256
+phowhisper-small 16/60 raw_wer=1.000 norm_wer=0.070
+phowhisper-small 17/60 raw_wer=2.588 norm_wer=2.588
+phowhisper-small 18/60 raw_wer=1.000 norm_wer=0.019
+phowhisper-small 19/60 raw_wer=1.000 norm_wer=0.064
+phowhisper-small 20/60 raw_wer=1.018 norm_wer=0.091
+phowhisper-small 21/60 raw_wer=1.048 norm_wer=0.286
+phowhisper-small 22/60 raw_wer=1.000 norm_wer=0.080
+phowhisper-small 23/60 raw_wer=1.125 norm_wer=0.125
+phowhisper-small 24/60 raw_wer=1.333 norm_wer=1.333
+phowhisper-small 25/60 raw_wer=8.115 norm_wer=8.115
+phowhisper-small 26/60 raw_wer=1.000 norm_wer=0.082
+phowhisper-small 27/60 raw_wer=1.083 norm_wer=0.317
+phowhisper-small 28/60 raw_wer=1.000 norm_wer=0.070
+phowhisper-small 29/60 raw_wer=1.054 norm_wer=0.378
+phowhisper-small 30/60 raw_wer=1.043 norm_wer=0.072
+phowhisper-small 31/60 raw_wer=2.174 norm_wer=2.130
+phowhisper-small 32/60 raw_wer=1.000 norm_wer=0.172
+phowhisper-small 33/60 raw_wer=1.231 norm_wer=1.231
+phowhisper-small 34/60 raw_wer=1.055 norm_wer=0.109
+phowhisper-small 35/60 raw_wer=4.524 norm_wer=4.524
+phowhisper-small 36/60 raw_wer=1.034 norm_wer=0.103
+phowhisper-small 37/60 raw_wer=1.102 norm_wer=0.184
+phowhisper-small 38/60 raw_wer=1.000 norm_wer=0.061
+phowhisper-small 39/60 raw_wer=1.024 norm_wer=0.024
+phowhisper-small 40/60 raw_wer=1.000 norm_wer=1.000
+phowhisper-small 41/60 raw_wer=2.091 norm_wer=2.091
+phowhisper-small 42/60 raw_wer=1.049 norm_wer=0.180
+phowhisper-small 43/60 raw_wer=10.316 norm_wer=10.316
+phowhisper-small 44/60 raw_wer=1.000 norm_wer=0.200
+phowhisper-small 45/60 raw_wer=1.000 norm_wer=0.000
+phowhisper-small 46/60 raw_wer=1.000 norm_wer=0.022
+phowhisper-small 47/60 raw_wer=7.846 norm_wer=7.731
+phowhisper-small 48/60 raw_wer=1.000 norm_wer=0.098
+phowhisper-small 49/60 raw_wer=1.000 norm_wer=0.066
+phowhisper-small 50/60 raw_wer=1.019 norm_wer=0.170
+phowhisper-small 51/60 raw_wer=2.444 norm_wer=2.407
+phowhisper-small 52/60 raw_wer=1.190 norm_wer=0.310
+phowhisper-small 53/60 raw_wer=1.000 norm_wer=0.090
+phowhisper-small 54/60 raw_wer=1.017 norm_wer=0.069
+phowhisper-small 55/60 raw_wer=1.000 norm_wer=0.138
+phowhisper-small 56/60 raw_wer=1.039 norm_wer=0.196
+phowhisper-small 57/60 raw_wer=1.018 norm_wer=0.053
+phowhisper-small 58/60 raw_wer=1.000 norm_wer=0.100
+phowhisper-small 59/60 raw_wer=1.078 norm_wer=0.373
+phowhisper-small 60/60 raw_wer=1.108 norm_wer=0.270
+{
+  "dataset_id": "thanhnew2001/VietSuperSpeech",
+  "model_id": "vinai/PhoWhisper-small",
+  "mode": "base",
+  "samples": 60,
+  "seed": 42,
+  "min_duration": 2.0,
+  "max_duration": 18.0,
+  "audio_cache_dir": "cache/vietsuperspeech",
+  "metrics": {
+    "phowhisper-small": {
+      "samples": 60,
+      "raw_wer": 1.5949813445888898,
+      "normalized_wer": 0.8931689918679557,
+      "normalized_cer": 0.5964164408053884
+    }
+  }
+}
+Saved predictions to: reports\vietsuperspeech_eval_base_60_20260702_223559.csv
+Saved summary to: reports\vietsuperspeech_eval_base_60_20260702_223559.json

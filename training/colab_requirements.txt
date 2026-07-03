@@ -1,0 +1,11 @@
+accelerate
+datasets[audio]
+evaluate
+huggingface_hub
+jiwer
+librosa
+peft
+soundfile
+tensorboard
+transformers
+
