@@ -36,8 +36,8 @@ if has_local_lora_adapter(PHOWHISPER_SMALL_LORA_ADAPTER_DIR):
         PHOWHISPER_SMALL_MODEL_ID,
         PHOWHISPER_SMALL_LORA_ADAPTER_DIR,
     )
-if len(model_options) == 2:
-    st.info("Chua thay LoRA adapter local, app se chi dung model pretrained.")
+# if len(model_options) == 2:
+#     st.info("Chua thay LoRA adapter local, app se chi dung model pretrained.")
 
 model_mode = st.radio(
     "Che do model",
